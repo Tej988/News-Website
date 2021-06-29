@@ -1,0 +1,32 @@
+.card{
+  margin: 2rem 10rem 2rem 10rem;
+  display: flexbox;
+}
+.card img{
+    width: 400px;
+    height:300px;
+    transition: transform .45s;
+    transition-property: transform;
+    transition-duration: 0.45s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+ /* .imgbox img:hover{
+    width:500px;
+    height:400px;
+    transition: transform 0.3px;
+    
+  
+} */
+
+.card-title{
+    color: black;
+}
+.card-title:hover{
+    color: rgb(190, 20, 20);
+}
+.card-body{
+   margin: -18rem 0 5rem 25rem;
+}

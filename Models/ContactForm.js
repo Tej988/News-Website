@@ -1,0 +1,20 @@
+const mongoose = require('mongoose');
+
+const Form = new mongoose.Schema({
+
+   
+
+ 
+    email:{
+        type:String,
+        required:true,
+    },
+  
+    message:{
+        type:String,
+        required:true,
+    },
+
+})
+
+module.exports = mongoose.model("form",Form,"form")

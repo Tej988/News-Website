@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    margin:  5rem 43rem  2rem 29rem;
+    padding-left: 5rem;
+    border: 1px solid;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 2px 2px 2rem 3px rgba(11, 158, 226, 0.2)
+  
+      
+      
+}
+.cancel_btn{
+    margin-left: 24rem;
+}
+.heading{
+   
+    font-size: 19px;
+    margin-bottom: 2rem;
+    margin-left: 50px;
+    border:   3px  solid #073b4c  ;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    padding-bottom: 1rem;
+    margin-right : 7rem;
+}
+.sign_up_with_google{
+    padding: 8px 4rem 8px 4rem;
+    border: 1px solid #fff ;
+    display: inline;
+    border-radius: 20px;
+    background-color:#073b4c;
+    word-spacing: 2px;
+    font-size: 19px;
+    font-weight: 400;
+
+}
+.sign_up_with_google a{
+ text-decoration: none;
+ color: #fff;
+}
+.content{
+    margin-top: 2rem;
+   
+}
+input{
+    padding: 10px 8rem 10px 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+.label{
+    font-size: 20px;
+    
+}
+.content i{
+     background-color: #073b4c;
+     color: #fff;
+     padding: .5rem;
+     border-radius: 2rem;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input[type=checkbox]{
+   width: 15px;
+   height: 15px;
+   margin-left: 5px;
+
+}
+.checkbox label{
+    color: #003049;
+    font-size: 15px;
+}
+.checkbox{
+    font-size: 15px;
+}
+.checkbox a{
+    color: #005f73;
+}
+button{
+    margin-left: 6rem;
+    padding: 6px 3rem 6px 3rem;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #073b4c;
+    background-color: #fff;
+   transition: ease-in .3s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+button:hover{
+    color: #fff;
+    background: #2ec4b6;
+    box-shadow: 2px 2px 2px 3px #005f73;
+}
+.another-txt a{
+    text-decoration: none;
+    color: #073b4c;
+    font-weight: 600;
+    
+}
